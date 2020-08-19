@@ -1,5 +1,7 @@
 # Setup project typescript
 
+![TS CONFIG NODE](https://raw.githubusercontent.com/TypeStrong/ts-node/HEAD/logo.svg?sanitize=true);
+
 ### Starting ( In this setup I'm using yarn but you can change all for npm)
 ```
 - git init
@@ -27,7 +29,7 @@ yarn add ts-node-dev
 - node 👉 the engine of the code **JS**
 - nodemon 👉 monitors the code 
 
-### Write the script bellow in your **package.json**
+### Write the script bellow in your **package.json** 🔽
 
 ```
 "script": {
@@ -35,7 +37,7 @@ yarn add ts-node-dev
 }
 ```
 ### Now on ```tsconfig.json```
-The transpiled code must go to a separate folder for production
+The transpile code must go to a separate folder for production
 - modify **outDir** and **rootDir**
 ```
 "outDir": "./dist"
@@ -80,8 +82,11 @@ yarn add @types/jest -D
 ```
 - Into ```jest.config.js``` we need changed the **preset**
 ```
+const { compilerOptions} = require('./tsconfig.json');
+
 preset: 'ts-jest';
 ```
+
 ### Into ```eslintrc.json``` must added:
   ```
   "env": {
@@ -90,3 +95,14 @@ preset: 'ts-jest';
     "jest": true
   }
   ```
+
+# Config BABEL
+
+**Babel** is a **JS** compile. Is a tool that helps you write code in the latest version of javascript
+
+### Starting
+
+```
+yarn add -D @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver
+```
+- Make a new file with name 👉 ```babel.config.js``` and add configurations bellow 🔽
