@@ -1,6 +1,9 @@
 # Setup project typescript 🔄🆕
 
 ![TS CONFIG NODE](./assets/tsnode.svg)
+
+<p align="justify">This document is to start your and my projects</p>
+
 ### Starting ( In this setup I'm using yarn but you can change all for npm) ✅
 ```
 - git init
