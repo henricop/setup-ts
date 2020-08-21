@@ -19,7 +19,7 @@
 - yarn init -y
 ```
 
-### Now install typescript with development  ✅
+### Now install typescript as a development  ✅
 ```
 - yarn add typescript -D
 - yarn tsc --init
