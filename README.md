@@ -115,7 +115,7 @@ preset: 'ts-jest';
 ### Starting
 
 ```
-yarn add -D @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver
+yarn add -D @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript
 ```
 - Make a new file with name 👉 ```babel.config.js``` and add configurations bellow 🔽
 ```
