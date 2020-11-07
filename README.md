@@ -1,4 +1,5 @@
 # Setup project typescript 🔄🆕
+## Starting a new project is always a challenge
 <div style="display:flex">
 <img  src="https://img.shields.io/static/v1?label=node&message=LTS&color=green&style=for-the-badge&logo=node.js"/>
 <img  src="https://img.shields.io/static/v1?label=react&message=LTS&color=blue&style=for-the-badge&logo=react"/>
